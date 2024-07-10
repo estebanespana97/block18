@@ -1,0 +1,32 @@
+1. i expect multiple to multiply the numbers
+2. i expevct x and y to be numbers
+3. i expect the output to be a numbers
+4 I expect the output of multiply (5,10) to be number 50. 
+
+Guided Practice: 
+
+Unit Tests: 
+1. I would have to create a test that will open the door. 
+2. I would have to create a test that will have a timer, open the door for 5 seconds, and then make sure the timer measures that the door was held open for 5 seconds 
+3. I would have to create a test that will close the door. I need to make sure that the door is open first
+4. I would have to create a test that will try to close thedoor even though its already closed. 
+5. I would have to create a test that will have someone stand in the middle of the doorway and then try closing the door. 
+6. I would create a test that will press a floor, then make sure the button lights up. 
+7. If I press it again, it should not bug out. It should stay lit. 
+
+Integration: 
+1. I would have to create a test where Im at the highest floor, then I would tell the elevator to go to the lowest floor. While I go to the lowest floor, I will try to press every button in the elevator. By the end of the test, I should be at the bottom floor regardless. 
+
+Functional: 
+1. I would have to make the elevator start at the bottom, then once the guest presses the button to go down, the elveator should go to floor 7. 
+    a. Once the guest is inside, the guest should press the lobby. 
+        i) at this point, the doors should close and the guest will go downstairs
+        ii) w sohuld test that if the client presses another button above their floor, they should not go there. 
+2. Once the guest arrives at the bottom, the door should open. The guest will then press floor 7 and the elevator should close its doors and go to floor 7. 
+3. Once the guest arrives at floor 7, the door should open and the guest will change into workout clothes. 
+4. The guest must then press the up arrow to hail the elevator again, the door will open, and await user input. 
+5. Once the user inputs floor 10, the elevator should close its doors and go to floor 10. 
+6. Once the user is finished in floor 10, they should hail the elevator, the elevator will come, and then they will press their floor, the doors will close, and the guest wil go back to their room. 
+
+Acceptance: 
+Install. 

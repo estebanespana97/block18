@@ -1,0 +1,26 @@
+Main Page Tests: 
+1. This should display all players in an ordered list. 
+2. All the players should be clearly visible
+3. The see details button should be clearly visible. 
+4. The name, breed, and assigned team should be available. 
+    - one of the players should not have a team, and they must have "unassigned" in place of the their team name. 
+5. The show details should also display a large version ofthe picture. 
+6. the show details should also show a button that redirects the user over to the main list. 
+7. there should be a remove button next to the see details button. 
+
+One of the tabs should say "Add a Player" 
+1. This add a player should redirect the user to a form where they have input the player name and breed at least. 
+    - Try inputting only the name and submitting. This should let them know to also input the breed. 
+    - Try inputting only the breed and submitting. This should let them know to also input the name. 
+2. The submit button should be clearly visible. 
+3. When the submit button is pressed and there are no msising fields, the page should refresh on the main page. The new player should be present. 
+
+4. When removing a player, the player should disppear without needing to refresh the page. 
+    - add a player, then go back to the main page, then remove a player and observe. they should be removed without any refresh necessary. 
+
+Stretch Goals: 
+Have another button that when pressed, it will show all of the teammates as the current player. 
+    - if there are no teammates, it should not display the button. 
+There should be an option to change the teeam assignment of the player. 
+    - This change should be reflected on the single player view and the roster without a page refresh. 
+Let users provide an image url when adding a player, this image will then show up as the player's portrait. 
